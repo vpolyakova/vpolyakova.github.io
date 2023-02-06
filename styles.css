@@ -1,0 +1,44 @@
+h1 {
+    color: #375e97;
+    font-size: 2em;
+    border-bottom: 2px solid #375e97;
+}
+
+table{
+    margin: 12px;
+}
+
+table,
+td {
+    border: 1px solid #333;
+    border-spacing: .1cm;
+}
+
+table,
+th {    
+    border: 2px solid #333;
+    border-spacing: .1cm;
+    text-align: left;
+}
+
+a:link {
+    color: #375e97;
+}
+  
+a:visited {
+    color: green;
+}
+
+body { 
+    color: black;                /* text color is black */ 
+    background: whitesmoke;            /* Content, padding will be whitesmoke */
+    margin: 46px 46px 46px 46px;   
+ }
+
+ body{
+    border: 2px;  
+    border-color: grey;  
+    border-style: solid;
+    border-width: medium;        /* sets border width on all sides */
+    padding: 12px 12px 12px 12px; /* Note 0px padding right */
+ }
