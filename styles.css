@@ -42,3 +42,11 @@ body {
     border-width: medium;        /* sets border width on all sides */
     padding: 12px 12px 12px 12px; /* Note 0px padding right */
  }
+
+ .homepage {
+    text-align:center;
+}
+
+.homepage, ul{
+    list-style: none;
+}
