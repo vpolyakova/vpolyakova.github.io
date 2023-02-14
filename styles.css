@@ -45,8 +45,37 @@ body {
 
  .homepage {
     text-align:center;
+    width: 900px;
+    margin: auto;
+    margin-top: 2%;
 }
 
-.homepage, ul{
-    list-style: none;
+#resume{
+    width: 900px;
+    margin: auto;
+    margin-top: 2%;
+}  
+
+#bio{
+    width: 900px;
+    margin: auto;
+    margin-top: 2%;
+} 
+
+@media screen and (max-width: 900px) {
+    #resume{
+        width:75%;        
+        margin-top: 2%;
+    }    
+    #bio{
+        width:75%;        
+        margin-top: 2%;
+    }
+    .homepage {
+        width:75%;        
+        margin-top: 2%;
+    }
 }
+
+
+
